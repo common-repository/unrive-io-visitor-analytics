@@ -1,0 +1,144 @@
+.unriveio_blog_header {
+	font-family: Cormorant, serif;
+	font-size: 35px;
+	line-height: 35px;
+}
+.unriveio_blog_subheader {
+	font-family: Cormorant, serif;
+	font-size: 21px;
+	padding: 0px 0px 0px 0px;
+	margin-top:20px;
+	margin-bottom:20px;
+	line-height: 35px;
+}
+.unriveio_row {
+	display: flex;
+}
+
+table thead tr #visits  {
+	text-align: center;
+	font-size:22px;
+}
+
+#the-list .column-source {
+	text-align: left;
+    font-size: 22px;
+    padding-right: 100px;
+}
+
+table thead tr th #source {
+font-size:22px;
+}
+
+#the-list .column-visits {
+	text-align: left;
+	font-size:22px;
+}
+
+table thead tr .column-source {
+	font-size: 22px;
+}
+
+table tfoot tr .column-source {
+	font-size: 22px;
+}
+
+table thead tr .column-visits a {
+text-align: center;
+	font-size:22px;
+}
+
+/* Create two equal columns that sits next to each other */
+.unriveio_column {
+	flex: 50%;
+	font-family: Cormorant;
+	font-size:14px;
+	padding: 0px;
+}
+
+.unriveio_stats_box span {
+	font-size:40px;
+	font-family: Cormorant;
+	color: #c37a60;
+	font-size:18px;
+	padding-right:10px;
+}
+
+.unriveio_stats_box  {
+	padding: 20px 20px 20px 20px;
+	font-size: 34px;
+	font-family: Cormorant;
+}
+
+.unriveio_stats_box span {
+	color: #607d8b;
+	font-family: Cormorant;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.unriveio_stats_box .daily {
+	color: #607d8b;
+	font-family: Cormorant;
+	font-size: 63px;
+	font-weight: bold;
+}
+
+.unriveio_stats_box {
+	font-family: Cormorant;
+	padding:10px 10px 10px 10px;
+	margin-right:10px;
+	margin-bottom:20px;
+}
+
+#unriveio_pageviews {
+	width:25%;
+}
+
+.unriveio th {
+	font-size:20px;
+}
+
+.unriveio_error {
+	padding: 5px 5px 5px 5px;
+	margin: 5px 5px 5px 5px;
+	background-color: #d63638;
+	color: #fff;
+}
+
+.unriveio_stats_box {
+	padding: 20px 20px 20px 20px;
+	font-size: 34px;
+	font-family: Cormorant;
+	color: #5a5a5a;
+}
+
+.unriveio_stats_box  h2{
+	font-size: 24px !important;
+}
+
+.unriveio_daily {
+	font-size: 34px !important;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 880px) {
+	#unriveio_pageviews {
+		width:50%;
+		display:block;
+	}
+
+	.unriveio_row {
+		display: inherit;
+	}
+
+	.wp-list-table thead th.column-primary {
+		width: 50%;
+	}
+
+	}
+
+	@media only screen and (min-width: 880px) and (max-width: 1160px) {
+	.unriveio_stats_box {
+	font-size: 17px;
+	}
+}
